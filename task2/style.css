@@ -1,0 +1,940 @@
+body {
+    color: rgba(7, 115, 250, 1);
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    height: 1100px;
+    background: linear-gradient(rgba(7, 115, 250, 0.7), rgba(7, 115, 250, 1));
+}
+
+.HowToAdd {
+    height: 700px;
+    background: rgba(7, 115, 250, 1);
+
+}
+
+.HowToAdd h1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -2.4px;
+    color: #FFFFFF;
+
+
+}
+
+main h1,
+main h2 {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    height: 900px;
+    background: rgba(0, 96, 224, 1);
+}
+
+.navigation {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 33px;
+    display: grid;
+    grid-template-areas: "logo nav button";
+    grid-template-columns: 25% 50% 25%;
+}
+
+#logoImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 33px;
+}
+
+.navigation .navPart {
+    display: grid;
+    grid-template-areas: "nav1 nav2 nav3 nav4 nav5 nav6";
+    grid-template-columns: 16.666% 16.666% 16.666% 16.666% 16.666% 16.666%;
+}
+
+.navPart {
+    text-align: center;
+    line-height: 29px;
+}
+
+header h1,
+header h2,
+header #link {
+    text-align: center;
+}
+
+a {
+    color: rgba(3, 53, 115, 1);
+    text-decoration: none;
+}
+
+#buyButton {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 29px;
+    width: 135px;
+
+}
+
+header h1 {
+    margin-top: 150px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -2.4px;
+    color: #FFFFFF;
+}
+
+header h2 {
+    margin: auto;
+    height: 60px;
+    width: 700px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+nav,
+#buyButton {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#buyButton {
+    font-weight: 700;
+}
+
+
+#listings {
+    margin: auto;
+    display: grid;
+    grid-template-areas: "CEX DEX";
+    grid-template-columns: 50% 50%;
+    height: 300px;
+    width: 560px;
+    text-align: center;
+    margin-bottom: 150px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+
+}
+
+#listings div div {
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    margin-top: 20px;
+    width: 180px;
+    height: 70px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+#pic1,
+#pic2 {
+    margin-top: -15px;
+    width: 180px;
+    height: 100px;
+}
+
+#pic3 {
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+
+}
+
+#pic4 {
+    margin-top: 15px;
+    width: 180px;
+    height: 40px;
+}
+
+
+#link {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+}
+
+#lineOne,
+#lineTwo,
+#lineThree,
+#lineFour {
+    position: relative;
+    height: 0px;
+    width: 2000px;
+    background-color: rgba(236, 236, 236, 0.2);
+    border: 0.5px solid rgba(236, 236, 236, 0.2);
+    transform: matrix(0.92, -0.39, 0.39, 0.92, 0, 0);
+}
+
+#lineThree,
+#lineFour {
+    transform: matrix(-0.92, -0.39, -0.39, 0.92, 0, 0);
+}
+
+#lineOne {
+    left: -141px;
+    top: -100px;
+}
+
+#lineTwo {
+    left: -141px;
+    top: -200px;
+}
+
+#lineThree {
+    top: 400px;
+    left: -100px;
+}
+
+#lineFour {
+    left: -100px;
+    top: 280px;
+}
+
+#carts {
+    margin: auto;
+    width: 1000px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas: "cart1 cart2";
+    grid-template-columns: 50% 50%;
+    height: 500px;
+}
+
+#cart1 {
+    margin: auto;
+    grid-area: cart1;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+    border-radius: 10px;
+}
+
+#cart2 {
+    margin: auto;
+    grid-area: cart2;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+    border-radius: 10px;
+}
+
+#ellipse {
+    text-align: center;
+    line-height: 55px;
+    position: relative;
+    top: -150px;
+    background-color: #FFFFFF;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #0D6BD8;
+}
+
+.text {
+    position: relative;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    color: rgba(255, 255, 255, 0.83);
+    width: 290px;
+    top: -200px;
+    left: 75px;
+}
+
+
+#cube1,
+#cube2,
+#cube3,
+#cube4,
+#cube5,
+#cube6 {
+    position: absolute;
+}
+
+#cube1 {
+    left: 100px;
+    top: 800px;
+}
+
+#cube2 {
+    left: 1300px;
+    top: 1400px;
+}
+
+#cube3 {
+    left: 1300px;
+    top: 300px;
+}
+
+#cube4 {
+    left: 1250px;
+    top: 1350px;
+}
+
+#cube5 {
+    left: 200px;
+    top: 700px;
+}
+
+#cube6 {
+    left: 1400px;
+    top: 200px;
+}
+
+.VsoStaking {
+    height: 1000px;
+    background-color: #FFFFFF;
+}
+
+.VsoStaking h1 {
+    margin-top: 50px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -2.4px;
+    color: #283049;
+
+
+}
+
+.VsoStaking h2 {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 700px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    /* or 133% */
+    text-align: center;
+    letter-spacing: -0.2px;
+
+    /* Base/Dark */
+    color: #1F3E4F;
+
+
+}
+
+table {
+
+    width: 1000px;
+    border-collapse: collapse;
+    margin: auto;
+    /* Staking Pool */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    letter-spacing: -0.2px;
+    color: #1F3E4F;
+    font-weight: normal;
+}
+
+td {
+    text-align: start;
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+    vertical-align: sub;
+}
+
+td:first-child,
+td:last-child {
+    text-align: start;
+}
+
+.VsoStaking tr:first-child,
+.VsoStaking tr:last-child {
+
+    border-bottom: 1px solid #187BF5;
+}
+
+tr:first-child {
+    font-weight: bold;
+}
+
+table tr img {
+    position: relative;
+    top: -15px;
+}
+
+.VsoStaking div img {
+    width: 18px;
+    position: relative;
+    left: -275px;
+    top: -30px;
+}
+
+.VsoStaking div {
+    margin: auto;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    letter-spacing: -0.2px;
+
+    /* Base/Dark */
+    color: #1F3E4F;
+    position: relative;
+    width: 350px;
+    top: 540px;
+    left: -300px;
+}
+
+.VsoStaking a {
+    color: #187BF5;
+}
+
+.VsoStaking table tr:last-child td:last-child {
+    color: #FF655F;
+    font-style: italic;
+}
+
+footer .logo {
+    display: grid;
+    grid-template-areas: "logo nav button";
+    grid-template-columns: 25%;
+    position: relative;
+    top: 50px;
+}
+
+.address {
+    margin: auto;
+    width: 1000px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas: "cart1 cart2";
+    grid-template-columns: 50% 50%;
+    height: 200px;
+    position: relative;
+    top: 200px;
+}
+
+
+
+.SerAb {
+    display: grid;
+    grid-template-areas: "cart1 cart2";
+    grid-template-columns: 50% 50%;
+    grid-area: cart2;
+    text-align: center;
+}
+
+.SerAb tr:first-child {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.231818px;
+
+    color: #0D6BD8;
+
+
+}
+
+.SerAb tr:first-child a{
+    color: #0D6BD8;
+}
+
+
+.SerAb tr {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;
+}
+
+.SerAb tr a{
+    color: #FFFFFF;
+}
+
+.e-mail div {
+    margin-top: 58px;
+    margin-left: 50px;
+    width: 200px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+
+
+}
+
+input {
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 285px;
+    height: 50px;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    ;
+}
+
+::placeholder {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+button {
+    border: 0;
+    position: relative;
+    top: 4px;
+    left: -64px;
+    width: 60px;
+    height: 50px;
+    background-color: #0D6BD8;
+    border-radius: 8px 8px 0px 0px;
+}
+
+button::after {
+    content: ">";
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;
+}
+
+.fa-brands a {
+    color: white;
+    margin-left: 30px;
+}
+
+.copy {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: -0.204545px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.privacy {
+    margin-left: 20%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;
+
+}
+
+.toStart {
+    position: relative;
+    margin: auto;
+    top: 250px;
+    left: 45%;
+    text-align: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #0D6BD8;
+    transform: rotate(0.75turn);
+}
+
+.toStart::after {
+    content: ">";
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 55px;
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;
+}
+
+.finalTurn {
+    margin: auto;
+    width: 1000px;
+    height: 300px;
+    display: grid;
+    grid-template-areas: "zero fontAwesome" "copy privacy";
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50% 50%;
+    position: relative;
+    top: 300px;
+}
+
+.SerAb table {
+    width: 200px;
+}
+
+
+@media (max-width: 1050px) {
+    .navigation .navPart {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: "nav1 nav2 nav3"
+            "nav4 nav5 nav6";
+        height: 100px;
+    }
+
+    #buyButton {
+        margin: auto;
+        margin-top: 0px;
+        line-height: 30px;
+        padding-bottom: 1px;
+    }
+
+    #carts {
+        width: 500px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-areas: "cart1" "cart2";
+        grid-template-columns: auto;
+        grid-template-rows: 50% 50%;
+        row-gap: 50px;
+        height: 1000px;
+    }
+
+    .HowToAdd {
+        height: 1200px;
+    }
+
+    table {
+
+        width: 600px;
+    }
+
+    td {
+        width: 10%;
+    }
+
+    td:first-child,
+    td:last-child {
+        width: 40%;
+    }
+
+    .VsoStaking div {
+        top: 580px;
+        left: -100px;
+    }
+
+    .finalTurn {
+        width: 600px;
+        height: 300px;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 50% 50%;
+        position: relative;
+        top: 300px;
+    }
+
+    .address {
+        margin: auto;
+        width: 750px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-areas: "cart1 cart2";
+        grid-template-columns: 50% 50%;
+        height: 200px;
+        position: relative;
+        top: 200px;
+    }
+
+    button {
+        top: -51px;
+        left: 279px;
+    }
+}
+
+@media (max-width: 720px) {
+    .navigation {
+        grid-template-areas: "logo" "nav" "button";
+        grid-template-columns: auto;
+        gap: 20px;
+
+    }
+
+    nav {
+        font-size: 14px;
+    }
+
+    #buyButton {
+        color: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 7px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 50px;
+        width: 75%;
+        font-size: 28px;
+    }
+
+    header h1 {
+        margin-top: 200px;
+        font-size: 37px;
+    }
+
+    header h2 {
+        height: 100px;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    #listings {
+        grid-template-areas: "CEX" "DEX";
+        grid-template-columns: auto;
+        gap: 50px;
+        width: 100%;
+        font-size: 24px;
+    }
+
+    #link {
+        position: relative;
+        top: 50px;
+        font-size: 18px;
+    }
+
+    .HowToAdd h1 {
+        position: relative;
+        top: 20px;
+        font-size: 37px;
+        line-height: 50px;
+    }
+
+    #carts {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #ellipse {
+        line-height: 40px;
+        position: relative;
+        top: -150px;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .text {
+        padding: 0;
+        width: 200px;
+        height: 1100px;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.2px;
+        color: rgba(255, 255, 255, 0.83);
+        top: -200px;
+    }
+
+    .VsoStaking h2 {
+        width: 100%;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    td {
+        width: 5%;
+        padding: 5px 0px;
+    }
+
+    td:first-child {
+        padding-left: 1%;
+        width: 10%;
+    }
+
+    td:last-child {
+        width: 80%;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    td {
+        text-align: start;
+        text-align: center;
+        width: 25%;
+        vertical-align: sub;
+    }
+    .VsoStaking div img {
+        width: 18px;
+        position: relative;
+    }
+    
+    .VsoStaking div {
+        top: 660px;
+        left: 30px;
+    }
+
+input{
+    width: minmax(50%,400px);
+    border: 0;
+}
+
+    .VsoStaking {
+        height: 1100px;
+    }
+
+    .address {
+            grid-template-areas: "cart1" "cart2";
+            grid-template-columns: auto;
+            height: 200px;
+            position: relative;
+            top: 200px;
+
+        width: 100%;
+        height: 200px;
+        position: relative;
+        top: 0px;
+    }
+
+    .e-mail div {
+        width: 100%;
+    }
+
+    button {
+        position: initial;
+        top: -51px;
+        left: 75%;
+    }
+
+    .SerAb td {
+        text-align: center;
+    }
+
+    .finalTurn {
+        margin: auto;
+        width: 100%;
+        height: 300px;
+        display: grid;
+        grid-template-areas: "zero fontAwesome" "copy privacy";
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 50% 50%;
+        position: relative;
+        top: 300px;
+    }
+
+    .fa-brands a {
+        color: white;
+        margin-left: 5px;
+    }
+
+    .toStart {
+        position: relative;
+        margin: auto;
+        top: 250px;
+        left: 40%;
+        text-align: center;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background-color: #0D6BD8;
+        transform: rotate(0.75turn);
+    }
+}
+
+@media (max-width: 290px) {
+    #carts img {
+        position: relative;
+        left: -39px;
+    }
+    .VsoStaking div {
+        width: 250px;
+        font-size: 14px;
+        height: 40px;
+        top: 710px;
+        left: 5px;
+    }
+
+    .VsoStaking {
+        height: 1200px;
+    }
+
+
+}
